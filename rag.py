@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # Location of knowledge base
-KB_FILE = Path(__file__).parent / "knowledge_base" / "waste_info.txt"
+KB_FILE = Path(__file__).parent / "waste_info.txt"
 
 
 def load_knowledge_base():
